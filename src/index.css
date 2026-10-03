@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Vazirmatn', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #090d16;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+  }
+}
+
+/* Tabular numerals for engineering specs */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

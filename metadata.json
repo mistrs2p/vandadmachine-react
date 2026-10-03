@@ -1,0 +1,6 @@
+{
+  "name": "Vandad Machinery | شیمی صنعت ونداد",
+  "description": "Engineering and manufacturing platform for industrial spray dryers, rotary atomizers, fluid bed granulators, drum flakers, and powder processing plants.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
